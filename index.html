@@ -19,10 +19,10 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
+<body class="home">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <a class="navbar-brand js-scroll-trigger" href="#home">
             <img class="logo-icon" src="assets/icon.png" />
             <span class="d-block ">TITOUAN DEBRAY</span>
         </a>
@@ -32,20 +32,20 @@
                 class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+                <li class="nav-item home"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
                 <li class="nav-item dropdown dropdown_menu--animated">
                     <a class="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                         data-bs-auto-close="false" aria-expanded="false">
                         Portfolio
                     </a>
                     <div class="dropdown-menu dropdown-menu-slide-down" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="landscapes.html">Landscapes</a>
-                        <a class="dropdown-item" href="cityscapes.html">Cityscapes</a>
-                        <a class="dropdown-item" href="residential.html">Residential</a>
+                        <a class="dropdown-item landscape" href="landscapes.html">Landscapes</a>
+                        <a class="dropdown-item cityscape" href="cityscapes.html">Cityscapes</a>
+                        <a class="dropdown-item residential" href="residential.html">Residential</a>
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bio.html">Bio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact</a></li>
+                <li class="nav-item bio"><a class="nav-link js-scroll-trigger" href="bio.html">Bio</a></li>
+                <li class="nav-item contact"><a class="nav-link js-scroll-trigger" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -53,26 +53,26 @@
     <div class="container-fluid p-0">
         <!--Home-->
         <section class="resume-section" id="intro">
-            <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-interval="false">
+            <div id="homeCarousel" class="carousel carousel-fade" data-bs-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/img/landscapes_full/cyprus.jpg" class="d-block w-100" alt="...">
+                        <img oncontextmenu="return false;" src="assets/img/landscapes_full/cyprus.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/landscapes_full/lavender-fields.jpg" class="d-block w-100" alt="...">
+                        <img oncontextmenu="return false;" src="assets/img/landscapes_full/lavender-fields.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/landscapes_full/dolomites-church.jpg" class="d-block w-100" alt="...">
+                        <img oncontextmenu="return false;" src="assets/img/landscapes_full/dolomites-church.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                <a class="carousel-control-prev"  role="button" href="#homeCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <!-- <span class="visually-hidden">Previous</span> -->
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                </a>
+                <a class="carousel-control-next" role="button" href="#homeCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <!-- <span class="visually-hidden">Next</span> -->
-                </button>
+                </a>
             </div>
         </section>
     </div>

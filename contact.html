@@ -8,6 +8,8 @@
   <meta name="author" content="" />
   <title>Titouan Debray: Photographer</title>
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <!--Bootstrap v5.3-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
@@ -17,10 +19,11 @@
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
+<body class="contact">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <a class="navbar-brand js-scroll-trigger" href="index.html">
+      <img class="logo-icon" src="assets/icon.png" />
       <span class="d-block ">TITOUAN DEBRAY</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,20 +31,20 @@
         class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+        <li class="nav-item home"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
         <li class="nav-item dropdown dropdown_menu--animated">
           <a class="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
             data-bs-auto-close="false" aria-expanded="false">
             Portfolio
           </a>
           <div class="dropdown-menu dropdown-menu-slide-down" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="landscapes.html">Landscapes</a>
-            <a class="dropdown-item" href="cityscapes.html">Cityscapes</a>
-            <a class="dropdown-item" href="residential.html">Residential</a>
+            <a class="dropdown-item landscape" href="landscapes.html">Landscapes</a>
+            <a class="dropdown-item cityscape" href="cityscapes.html">Cityscapes</a>
+            <a class="dropdown-item residential" href="residential.html">Residential</a>
           </div>
         </li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bio.html">Bio</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact</a></li>
+        <li class="nav-item bio"><a class="nav-link js-scroll-trigger" href="bio.html">Bio</a></li>
+        <li class="nav-item contact"><a class="nav-link js-scroll-trigger" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -53,11 +56,14 @@
       <div class="row contact-section" style="width: 100%; flex-direction: column;">
 
         <div class="">
-          <h4>Contact</h4>
+          <h4 style="margin-top: 0;">Contact</h4>
+        </div>
+        <div class="col-lg-6 pb-3 py-3" style="color: #131313;">
+          For all pricing and booking inquiries, or to buy prints, <br/>
+          please contact me at :
         </div>
 
-
-        <form class="" id="contactForm" name="sentMessage" novalidate="novalidate">
+        <!-- <form class="" id="contactForm" name="sentMessage" novalidate="novalidate">
           <div class="row align-items-stretch mb-5">
             <div class="col-md-6">
               <div class="form-group">
@@ -72,13 +78,6 @@
                   data-validation-required-message="Please enter your email address." />
                 <p class="help-block text-danger"></p>
               </div>
-              <!-- <div class="form-group mb-md-0">
-                        Phone number
-                        <input class="form-control" id="phone" type="tel" placeholder="" />
-                        <p class="help-block text-danger"></p>
-                    </div> -->
-
-
               <div class="form-group form-group-textarea mb-md-0">
                 Message
                 <textarea class="form-control" id="message" placeholder="" required="required"
@@ -91,10 +90,9 @@
               </div>
             </div>
           </div>
+        </form> -->
 
-        </form>
-
-        <div class="section-subheading">titouanpaitierphotography@gmail.com</div>
+        <div class="section-subheading pb-2 py-2" style="color: #444;">titouanpaitierphotography@gmail.com</div>
         <div class="section-subheading">[+33] 06 41 40 57 48</div>
 
       </div>
@@ -103,7 +101,8 @@
   </section>
   </div>
   <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
 </body>
