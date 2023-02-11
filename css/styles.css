@@ -637,14 +637,6 @@ pre code {
     padding: 20px;
     float: right;
   }
-  #intro {
-    background-color: #fcfeff;
-    background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
-  }
-  body.landscape #sideNav {
-    background-color: #fcfeff;
-    background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
-  }
   #portfolio .portfolio-item {
     width: 29.5rem;
     min-height: 20rem;
@@ -10162,8 +10154,6 @@ p.lead {
     flex-direction: column;
     width: 18rem;
     height: 100vh;
-    background-color: #fcfeff;
-    background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -10258,11 +10248,7 @@ p.lead {
   opacity: 0;
   transition: all 0.5s ease;
 } */
-body {
-  background-color: #fcfeff;
-  background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+
 
 
 .dev-icons {
@@ -10272,17 +10258,13 @@ body {
 section.resume-section {
   display: flex;
   flex-direction: column;
-  padding-left: 3rem;
+  padding-left: 4rem;
   padding-right: 3rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
   max-width: 75rem;
   background-color: #fcfeff;
   background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    /* background-color: #fcfeff;
-    background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png"); */
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 section.resume-section .resume-section-content {
