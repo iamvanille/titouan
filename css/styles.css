@@ -10272,8 +10272,8 @@ body {
 section.resume-section {
   display: flex;
   flex-direction: column;
-  padding-left: 5rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
   max-width: 75rem;
