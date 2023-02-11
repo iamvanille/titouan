@@ -10267,6 +10267,9 @@ section.resume-section {
   padding-top: 3rem;
   padding-bottom: 2rem;
   max-width: 75rem;
+  background-color: #fcfeff;
+  background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 section.resume-section .resume-section-content {
