@@ -637,6 +637,14 @@ pre code {
     padding: 20px;
     float: right;
   }
+  #intro {
+    background-color: #fcfeff;
+    background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+  }
+  body.landscape #sideNav {
+    background-color: #fcfeff;
+    background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+  }
   #portfolio .portfolio-item {
     width: 29.5rem;
     min-height: 20rem;
@@ -10154,6 +10162,8 @@ p.lead {
     flex-direction: column;
     width: 18rem;
     height: 100vh;
+    background-color: #fcfeff;
+    background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
   }
   #sideNav .navbar-brand {
     display: flex;
