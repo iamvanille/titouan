@@ -10248,7 +10248,11 @@ p.lead {
   opacity: 0;
   transition: all 0.5s ease;
 } */
-
+body {
+  background-color: #fcfeff;
+  background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
 
 .dev-icons {
@@ -10267,6 +10271,9 @@ section.resume-section {
 
 section.resume-section .resume-section-content {
   width: 100%;
+}
+section.carousel-resume-section {
+  flex-direction: row;
 }
 
 @media (min-width: 768px) {
