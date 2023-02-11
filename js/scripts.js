@@ -32,3 +32,39 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+var href = window.location.href;
+
+if (href.includes('carousel')) {
+    // change active class depending on which image was clicked in thumbnail gallery
+    var img_id = href.split("#").pop();
+    document.getElementsByClassName('carousel-item active')[0].classList.remove('active');
+    document.getElementById(img_id).classList.add('active');
+
+    // navigate carousel with arrow keys
+    window.addEventListener("keydown", (e) => {
+        if (e.keyCode === 37) {
+        // Previous
+        document.querySelector(".carousel-control-prev").click();
+        return false;
+        }
+        if (e.keyCode === 39) {
+        // Next
+        document.querySelector(".carousel-control-next").click();
+        return false;
+        }
+    });
+} else if (href.includes('index')) {
+    // navigate carousel with arrow keys
+    window.addEventListener("keydown", (e) => {
+        if (e.keyCode === 37) {
+        // Previous
+        document.querySelector(".carousel-control-prev").click();
+        return false;
+        }
+        if (e.keyCode === 39) {
+        // Next
+        document.querySelector(".carousel-control-next").click();
+        return false;
+        }
+    });
+};
