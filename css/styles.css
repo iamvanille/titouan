@@ -617,10 +617,20 @@ pre code {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  #portfolio .portfolio-item {
+    width: 20rem;
+    min-height: 13rem;
+    margin: 7px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+  #portfolio .portfolio-item {
+    width: 29.5rem;
+    min-height: 20rem;
+    margin: 7px;
   }
 }
 @media (min-width: 1200px) {
@@ -641,13 +651,6 @@ pre code {
     width: 29.5rem;
     min-height: 20rem;
     margin: 7px;
-  }
-  #portfolio .portfolio-item-flex {
-    width: 29.5rem;
-    min-height: 20rem;
-    margin: 7px;
-    display: flex;
-    align-items: center;
   }
 }
 .row {
@@ -10407,19 +10410,6 @@ section.carousel-resume-section {
   width: 100%;
   height: 37rem;
   object-fit: cover;
-}
-.img-vertical-sm {
-  height: 20rem;
-  width: auto;
-  object-fit: cover;
-  margin-left: auto; 
-  margin-right: auto;
-}
-.img-vertical-md {
-  width: auto;
-  height: 29.5rem;
-  object-fit: cover;
-  margin: auto;
 }
 .bandcamp-embed{
   border: 0;
