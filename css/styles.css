@@ -10267,7 +10267,8 @@ section.resume-section {
   padding-bottom: 2rem;
   max-width: 75rem;
   background-color: #fcfeff;
-  background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png"); */
+  background-image: url(handmade-paper.png);
 }
 
 section.resume-section .resume-section-content {
