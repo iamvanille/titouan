@@ -48,8 +48,194 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'univers-condensed';
+  src: url('fonts/univers/UniversCondensed.eot'); /* IE9 Compat Modes */
+  src: url('fonts/univers/UniversCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/univers/UniversCondensed.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/univers/UniversCondensed.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/univers/UniversCondensed.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/univers/UniversCondensed.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'univers';
+  src: url('fonts/univers/Univers.eot'); /* IE9 Compat Modes */
+  src: url('fonts/univers/Univers.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/univers/Univers.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/univers/Univers.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/univers/Univers.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/univers/Univers.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Verdana Pro Semibold */
+@font-face {
+  font-family: 'Verdana Pro Cond';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Verdana Pro Cond'), url('fonts/verdana-pro-condensed/VerdanaPro-CondRegular.woff') format('woff');
+}
+  
+
+@font-face {
+font-family: 'Verdana Pro Cond Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-CondItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Bold'), url('fonts/verdana-pro-condensed/VerdanaPro-CondBold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Bold Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-CondBoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro'), url('fonts/verdana-pro-condensed/VerdanaPro-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond Light';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Light'), url('fonts/verdana-pro-condensed/VerdanaPro-CondLight.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Light';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Light'), url('fonts/verdana-pro-condensed/VerdanaPro-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Light Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-CondLightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Light Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond SemiBold';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond SemiBold'), url('fonts/verdana-pro-condensed/VerdanaPro-CondSemiBold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro SemiBold';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro SemiBold'), url('fonts/verdana-pro-condensed/VerdanaPro-SemiBold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond SemiBold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond SemiBold Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-CondSemiBoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro SemiBold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro SemiBold Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-SemiBoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Bold'), url('fonts/verdana-pro-condensed/VerdanaPro-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Bold Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Black';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Black'), url('fonts/verdana-pro-condensed/VerdanaPro-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond Black';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Black'), url('fonts/verdana-pro-condensed/VerdanaPro-CondBlack.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Black Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-BlackItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Verdana Pro Cond Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Verdana Pro Cond Black Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-CondBlackItalic.woff') format('woff');
+}
+
 html {
-  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-family: Verdana-Pro-Semibold,Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -61,7 +247,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-family: 'fonts/univers-condensed', 'Verdana Pro Cond';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10267,7 +10453,8 @@ section.resume-section {
   padding-bottom: 2rem;
   max-width: 75rem;
   background-color: #fcfeff;
-  background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png"); */
+  background-image: url(handmade-paper.png);
 }
 
 section.resume-section .resume-section-content {
