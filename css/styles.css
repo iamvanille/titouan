@@ -10599,8 +10599,8 @@ section.carousel-resume-section {
 }
 .portfolio-img-fluid {
   width: 100%;
-  /* height: 20rem; */
-  height: 29.5rem;
+  height: 22rem;
+  /* height: 29.5rem; */
   object-fit: cover;
 }
 .horizontal {
