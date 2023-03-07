@@ -3531,7 +3531,7 @@ input[type=button].btn-block {
   display: block;
 }
 .dropdown_menu--animated {
-  display: none;
+  /* display: none; */
   li {
     display: block;
     opacity: 1;
