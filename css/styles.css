@@ -786,8 +786,8 @@ pre code {
 }
 @media (max-width: 576px) {
   #portfolio {
-    padding-left: 0.5rem;
-    padding-right: 0rem;
+    /* padding-left: 0.5rem;
+    padding-right: 0rem; */
   }
   #portfolio .portfolio-item {
     width: 26rem;
@@ -818,8 +818,8 @@ pre code {
     max-width: 540px;
   }
   #portfolio {
-    padding-left: 1rem;
-    padding-right: 0rem;
+    /* padding-left: 1rem;
+    padding-right: 0rem; */
   }
   #portfolio .portfolio-item {
     width: 16rem;
@@ -851,8 +851,8 @@ pre code {
     max-width: 720px;
   }
   #portfolio {
-    padding-left: 1rem;
-    padding-right: 0rem;
+    /* padding-left: 1rem;
+    padding-right: 0rem; */
   }
   #portfolio .portfolio-item {
     width: 22rem;
@@ -880,8 +880,8 @@ pre code {
     max-width: 960px;
   }
   #portfolio {
-    padding-left: 2rem;
-    padding-right: 0rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   #portfolio .portfolio-item {
     width: 20rem;
@@ -909,8 +909,8 @@ pre code {
     max-width: 960px;
   }
   #portfolio {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   #portfolio .portfolio-item {
     width: 23rem;
@@ -933,12 +933,12 @@ pre code {
     height: 34rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   #portfolio {
     display: flex;
     flex-direction: column;
-    padding-left: 3rem;
-    padding-right: 1rem;
+    /* padding-left: 3rem;
+    padding-right: 1rem; */
     padding-top: 3rem;
     padding-bottom: 2rem;
     max-width: 75rem;
@@ -964,9 +964,18 @@ pre code {
     height: 34rem;
   }
 }
-@media (min-width: 1310px) {
+@media (min-width: 1300px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+  #portfolio {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 3.5rem;
+    padding-right: 1rem; */
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    max-width: 75rem;
   }
   .skills-grid {
     display: flex;
@@ -986,6 +995,66 @@ pre code {
   .panorama-item, .gallery-panorama-wide {
     width: 60rem !important;
     height: 19rem;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+  }
+  .horizontal {
+    height: 20rem;
+  }
+  .img-vertical {
+    width: 100%;
+    height: 37rem;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1440px) {
+  #portfolio .portfolio-item {
+    width: 29.5rem;
+    min-height: 22rem;
+    margin: 8px;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+  }
+  .horizontal {
+    height: 20rem;
+  }
+  .img-vertical {
+    width: 100%;
+    height: 37rem;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1546px) {
+  #portfolio .portfolio-item {
+    width: 29.5rem;
+    min-height: 22rem;
+    margin: 8px;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+  }
+  .horizontal {
+    height: 20rem;
+  }
+  .img-vertical {
+    width: 100%;
+    height: 37rem;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1900px) {
+  #portfolio .portfolio-item {
+    width: 29.5rem;
+    min-height: 22rem;
+    margin: 8px;
   }
   .portfolio-img-fluid {
     width: 100%;
@@ -10459,7 +10528,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 18rem;
   }
 }
 h1,
@@ -10655,8 +10724,14 @@ section.carousel-resume-section {
   grid-row: span 1;
   /* text-align:center; */
 }
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
 #portfolio .row {
   margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
 }
 #portfolio .row > * {
   padding-left: 0;
