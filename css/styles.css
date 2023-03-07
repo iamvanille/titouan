@@ -784,10 +784,80 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (max-width: 576px) {
-  #portfolio {
-    /* padding-left: 0.5rem;
-    padding-right: 0rem; */
+section.resume-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  max-width: 75rem;
+  background-color: #fcfeff;
+  /* background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png"); */
+  background-image: url(handmade-paper.png);
+}
+
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+section.carousel-resume-section {
+  flex-direction: row;
+}
+
+@media (max-width: 440px){
+  section.resume-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #carouselSection {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  #portfolio .portfolio-item {
+    width: 21rem;
+    margin: 8px;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
+  .panorama-item {
+    width: 21rem !important;
+  }
+  .gallery-panorama-wide {
+    width: 21rem !important;
+    height: 9rem;
+  }
+  .img-vertical {
+    height: 30rem;
+  }
+  .skills-grid {
+    flex-direction: column;
+  }
+  .skills-column {
+    max-width: 100%;
+    padding: 15px;
+    text-align: justify;
+  }
+  .img-skills {
+    float: none;
+    vertical-align: middle;
+  }  
+  .navbar .logo-icon {
+    max-width: 20px;
+    margin-top: 3px;
+    margin-right: 10px;
+    max-height: 14px;
+  }
+  .navbar-brand > span {
+    font-size: 14px;
+  }
+}
+@media (min-width: 440px) {
+  #carouselSection {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   #portfolio .portfolio-item {
     width: 26rem;
@@ -808,18 +878,31 @@ pre code {
   .img-vertical {
     height: 34rem;
   }
-  .img-skills {
-    float: none;
-    vertical-align: middle;
+  .skills-grid {
+    flex-direction: column;
+  }
+  .skills-column {
+    max-width: 100%;
+    padding: 15px;
+    text-align: justify;
+  }
+  .navbar .logo-icon {
+    max-width: 40px;
+    margin-top: 0px;
+    margin-right: 10px;
+    max-height: 25px;
+  }
+  .navbar-brand > span {
+    font-size: 1.25rem;
   }
 }
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
-  #portfolio {
-    /* padding-left: 1rem;
-    padding-right: 0rem; */
+  #carouselSection {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   #portfolio .portfolio-item {
     width: 16rem;
@@ -850,9 +933,9 @@ pre code {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
-  #portfolio {
-    /* padding-left: 1rem;
-    padding-right: 0rem; */
+  #carouselSection {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   #portfolio .portfolio-item {
     width: 22rem;
@@ -874,14 +957,23 @@ pre code {
   .img-vertical {
     height: 30rem;
   }
+  .skills-grid {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  #carouselSection {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   #portfolio {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   #portfolio .portfolio-item {
     width: 20rem;
@@ -908,10 +1000,6 @@ pre code {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
-  #portfolio {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
   #portfolio .portfolio-item {
     width: 23rem;
     min-height: 17.25rem;
@@ -934,15 +1022,7 @@ pre code {
   }
 }
 @media (min-width: 1180px) {
-  #portfolio {
-    display: flex;
-    flex-direction: column;
-    /* padding-left: 3rem;
-    padding-right: 1rem; */
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    max-width: 75rem;
-  }
+  
   #portfolio .portfolio-item {
     width: 26rem;
     min-height: 19rem;
@@ -968,19 +1048,18 @@ pre code {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
+  #carouselSection {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   #portfolio {
     display: flex;
     flex-direction: column;
-    /* padding-left: 3.5rem;
-    padding-right: 1rem; */
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 3rem;
     padding-bottom: 2rem;
     max-width: 75rem;
-  }
-  .skills-grid {
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
   }
   .img-skills {
     width: 300px;
@@ -1070,6 +1149,7 @@ pre code {
     object-fit: cover;
   }
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -4487,7 +4567,8 @@ input[type=button].btn-block {
   justify-content: space-between;
 }
 .navbar-brand {
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex; 
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -4548,12 +4629,7 @@ input[type=button].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
-.navbar .logo-icon {
-  max-width: 40px;
-  margin-top: 0px;
-  margin-right: 10px;
-  max-height: 25px;
-}
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
 .navbar-expand-sm > .container-fluid,
@@ -10675,29 +10751,7 @@ p.lead {
   font-size: 3rem;
 }
 
-section.resume-section {
-  display: flex;
-  flex-direction: column;
-  padding-left: 4rem;
-  padding-right: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  max-width: 75rem;
-  background-color: #fcfeff;
-  /* background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png"); */
-  background-image: url(handmade-paper.png);
-}
 
-section.resume-section .resume-section-content {
-  width: 100%;
-}
-section.carousel-resume-section {
-  flex-direction: row;
-}
-#carouselSection {
-  padding-left: 1.5rem;
-  padding-right: 0.5rem;
-}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
