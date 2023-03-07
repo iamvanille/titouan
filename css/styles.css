@@ -791,7 +791,6 @@ pre code {
   }
   #portfolio .portfolio-item {
     width: 26rem;
-    min-height: 19rem;
     margin: 8px;
   }
   .portfolio-img-fluid {
@@ -800,11 +799,11 @@ pre code {
     object-fit: cover;
   }
   .panorama-item {
-    width: 53rem !important;
+    width: 26rem !important;
   }
   .gallery-panorama-wide {
-    width: 53rem !important;
-    height: 19rem;
+    width: 26rem !important;
+    height: 9rem;
   }
   .img-vertical {
     height: 34rem;
