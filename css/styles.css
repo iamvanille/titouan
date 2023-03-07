@@ -855,6 +855,10 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 440px) {
+  section.resume-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   #carouselSection {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
