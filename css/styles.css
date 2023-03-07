@@ -937,6 +937,10 @@ section.carousel-resume-section {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  section.resume-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   #carouselSection {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -971,6 +975,10 @@ section.carousel-resume-section {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   #carouselSection {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1003,6 +1011,10 @@ section.carousel-resume-section {
 @media (min-width: 1080px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+  section.resume-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   #portfolio .portfolio-item {
     width: 23rem;
