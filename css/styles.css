@@ -812,15 +812,10 @@ section.carousel-resume-section {
   display: flex;
   flex-direction: column;
 }
-.navbar-title {
-  font-size: 24px;
-  letter-spacing: 0px;
-  padding-left: 9px;
-}
 .navbar-subtitle {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 11px;
-  letter-spacing: -0.1px;
+  letter-spacing: -0.3px;
   margin-left: -45px;
 }
 @media (max-width: 440px){
@@ -919,9 +914,10 @@ section.carousel-resume-section {
     font-size: 1.25rem;
   }
   .navbar-title {
-    font-size: 18px;
+    font-size: 23px;
     letter-spacing: 0px;
     padding-left: 7px;
+    margin-bottom: -5px;
   }
 }
 @media (min-width: 576px) {
@@ -1032,9 +1028,9 @@ section.carousel-resume-section {
     height: 34rem;
   }
   .navbar-title {
-    font-size: 24px;
-    letter-spacing: 0px;
-    padding-left: 9px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-left: 4px;
   }
 }
 @media (min-width: 1080px) {
