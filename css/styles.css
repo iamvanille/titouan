@@ -268,7 +268,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: -3rem;
+  margin-top: 0rem;
   margin-bottom: 1.5rem;
 }
 
@@ -1165,7 +1165,6 @@ section.carousel-resume-section {
     object-fit: cover;
   }
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
