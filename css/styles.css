@@ -859,13 +859,10 @@ section.carousel-resume-section {
     vertical-align: middle;
   }  
   .navbar .logo-icon {
-    max-width: 20px;
-    margin-top: 7px;
-    margin-right: 10px;
-    max-height: 14px;
+    width: 80px;
   }
   .navbar-brand > span {
-    font-size: 14px;
+    font-size: 0px;
   }
 }
 @media (min-width: 440px) {
@@ -905,19 +902,16 @@ section.carousel-resume-section {
     text-align: justify;
   }
   .navbar .logo-icon {
-    max-width: 40px;
-    margin-top: 5px;
-    margin-right: 10px;
-    max-height: 25px;
-  }
-  .navbar-brand > span {
-    font-size: 1.25rem;
+    width: 90px;
   }
   .navbar-title {
     font-size: 23px;
     letter-spacing: 0px;
     padding-left: 7px;
     margin-bottom: -5px;
+  }
+  .navbar-brand > span {
+    font-size: 0px;
   }
 }
 @media (min-width: 576px) {
@@ -1031,6 +1025,14 @@ section.carousel-resume-section {
     font-size: 26px;
     letter-spacing: 1px;
     padding-left: 4px;
+  }
+  .navbar .logo-icon {
+    width: 157px;
+  }
+  .navbar-brand > span {
+    font-size: 9px;
+    margin: 0;
+    padding-top: 3px;
   }
 }
 @media (min-width: 1080px) {
@@ -4608,7 +4610,11 @@ input[type=button].btn-block {
 }
 .navbar-brand {
   /* display: inline-block; */
-  display: flex; 
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 48px;
+  margin-bottom: 25px;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -10353,6 +10359,10 @@ button.bg-dark:focus {
   .text-sm-center {
     text-align: center !important;
   }
+  #sideNav .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
 }
 @media (min-width: 768px) {
   .text-md-left {
@@ -10693,8 +10703,8 @@ p.lead {
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: 40px 30px 30px 0px;
-    padding: 0.5rem;
+    margin: 40px 46px 30px 0px;
+    padding: 0;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
