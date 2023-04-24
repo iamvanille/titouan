@@ -822,7 +822,8 @@ section.carousel-resume-section {
   section.resume-section {
     padding-left: 1rem;
     padding-right: 1rem;
-    background-image: none;
+    /* background-image: none; */
+    min-height: 600px;
   }
   #carouselSection {
     padding-left: 0.5rem;
@@ -865,12 +866,16 @@ section.carousel-resume-section {
   .navbar-brand > span {
     font-size: 0px;
   }
+  a.navbar-brand {
+    margin: 0;
+  }
 }
 @media (min-width: 440px) {
   section.resume-section {
     padding-left: 1rem;
     padding-right: 1rem;
-    background-image: none;
+    /* background-image: none; */
+    min-height: 750px;
   }
   #carouselSection {
     padding-left: 0.5rem;
@@ -912,6 +917,9 @@ section.carousel-resume-section {
     padding-left: 7px;
     margin-bottom: -5px;
   }
+  a.navbar-brand{
+    margin: 0;
+  }
   .navbar-brand > span {
     font-size: 0px;
   }
@@ -922,6 +930,9 @@ section.carousel-resume-section {
   }
   section.resume-section {
     background-image: url(handmade-paper.png);
+  }
+  a.navbar-brand {
+    margin: 0;
   }
   #carouselSection {
     padding-left: 0.5rem;
