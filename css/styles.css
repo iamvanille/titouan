@@ -822,6 +822,7 @@ section.carousel-resume-section {
   section.resume-section {
     padding-left: 1rem;
     padding-right: 1rem;
+    background-image: none;
   }
   #carouselSection {
     padding-left: 0.5rem;
@@ -869,6 +870,7 @@ section.carousel-resume-section {
   section.resume-section {
     padding-left: 1rem;
     padding-right: 1rem;
+    background-image: none;
   }
   #carouselSection {
     padding-left: 0.5rem;
@@ -917,6 +919,9 @@ section.carousel-resume-section {
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+  }
+  section.resume-section {
+    background-image: url(handmade-paper.png);
   }
   #carouselSection {
     padding-left: 0.5rem;
