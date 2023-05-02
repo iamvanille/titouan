@@ -1159,12 +1159,6 @@ section.carousel-resume-section {
     height: 37rem;
     object-fit: cover;
   }
-  .carousel-inner {
-    max-height: 55rem !important;
-  }
-  .carousel-item img {
-    max-height: 55rem !important;
-  }
 }
 @media (min-width: 1440px) {
   #portfolio .portfolio-item {
