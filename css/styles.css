@@ -818,6 +818,12 @@ section.carousel-resume-section {
   letter-spacing: -0.3px;
   margin-left: -45px;
 }
+.category-title {
+  padding-left: 3rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid lavender;
+}
 @media (prefers-color-scheme: dark) {
   section.resume-section {
     background-image: none;
