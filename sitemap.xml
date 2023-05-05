@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://www.titouandebray.com/index.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+        <!-- <image:image>
+        <image:loc>https://....jpg</image:loc>
+        <image:title>Home - Dolomites, Switzerland, Green Hills, Village</image:title>
+        <image:caption />
+        </image:image> -->
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/landscapes.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/landscape_carousel.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/cityscapes.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/cityscape_carousel.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/residential.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/residential_carousel.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/ongoing.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/ongoing_carousel.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/bio.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.titouandebray.com/contact.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+
+    
+</urlset>
