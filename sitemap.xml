@@ -5,17 +5,62 @@
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
         <lastmod>2023-05-05</lastmod>
-        <!-- <image:image>
-        <image:loc>https://....jpg</image:loc>
-        <image:title>Home - Dolomites, Switzerland, Green Hills, Village</image:title>
-        <image:caption />
-        </image:image> -->
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/dolomites_1.jpg</image:loc>
+            <image:title>Home - Dolomites, Switzerland, Green Hills, Village</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/dolomites_2.jpg</image:loc>
+            <image:title>Home - Dolomites, Dusk, Green Hills, Church, Switzerland</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/bastide.jpg</image:loc>
+            <image:title>Home - Bastide, Luxury Villa in the Luberon, Provence, France</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/pool.jpg</image:loc>
+            <image:title>Home - Natural Swimming Pool, Provence, France</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/wheat.jpg</image:loc>
+            <image:title>Home - Rolling Wheat Field, Hay Bales, Tuscany, Italy</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/palace.jpg</image:loc>
+            <image:title>Home - Evening Lit Palace on River, Busapest</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/busapest.jpg</image:loc>
+            <image:title>Home - Caslte by Daylight, Budapest</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Home_Sm/tram.jpg</image:loc>
+            <image:title>Home - Tram on the Foggy Bridge, Budapest</image:title>
+            <image:caption />
+        </image:image>
     </url>
     <url>
         <loc>https://www.titouandebray.com/landscapes.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
         <lastmod>2023-05-05</lastmod>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Landscapes_Sm/dolomites_1.jpg</image:loc>
+            <image:title>Home - Dolomites, Switzerland, Green Hills, Village</image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.titouandebray.com/assets/img/Landscapes_Sm/dolomites_2.jpg</image:loc>
+            <image:title>Home - Dolomites, Dusk, Green Hills, Church, Switzerland</image:title>
+            <image:caption />
+        </image:image>
     </url>
     <url>
         <loc>https://www.titouandebray.com/landscape_carousel.html</loc>
