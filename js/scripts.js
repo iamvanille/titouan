@@ -68,4 +68,3 @@ if (href.includes('carousel')) {
         }
     });
 };
-$('.carousel').bcSwipe({ threshold: 50 });

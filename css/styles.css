@@ -1145,7 +1145,7 @@ section.carousel-resume-section {
   }
   #portfolio .portfolio-item {
     width: 29.5rem;
-    min-height: 22rem;
+    min-height: 19rem;
     margin: 8px;
   }
   .panorama-item, .gallery-panorama-wide {
@@ -1169,7 +1169,7 @@ section.carousel-resume-section {
 @media (min-width: 1440px) {
   #portfolio .portfolio-item {
     width: 29.5rem;
-    min-height: 22rem;
+    min-height: 20rem;
     margin: 8px;
   }
   .portfolio-img-fluid {
@@ -1195,7 +1195,7 @@ section.carousel-resume-section {
 @media (min-width: 1546px) {
   #portfolio .portfolio-item {
     width: 29.5rem;
-    min-height: 22rem;
+    min-height: 20rem;
     margin: 8px;
   }
   .portfolio-img-fluid {
@@ -3707,7 +3707,8 @@ input[type=button].btn-block {
   left: auto;
 }
 .no-pointer {
-  pointer-events: none;;
+  /* pointer-events: none; */ 
+  /* re-enable this once the urls have been fetched */
 }
 .dropdown-menu-slide-down {
   transform-origin: top center;
