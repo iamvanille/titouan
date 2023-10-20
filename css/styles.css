@@ -54,6 +54,20 @@
   src: local('Trebuchet MS'), url('trebuc.woff') format('woff');
   }
 @font-face {
+  font-family: 'market-deco';
+  src: url('fonts/Market_Deco.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'east-west';
+  src: url('fonts/east_west/eastwestexpand.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: 'univers-condensed';
   src: url('fonts/univers/UniversCondensed.eot'); /* IE9 Compat Modes */
   src: url('fonts/univers/UniversCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -592,6 +606,13 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.5rem;
 }
+
+.ongoing h4, .ongoing .h4 {
+  font-family: 'east-west';
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
 
 h5, .h5 {
   font-size: 1.25rem;
