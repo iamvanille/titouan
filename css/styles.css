@@ -252,6 +252,13 @@ font-weight: normal;
 src: local('Verdana Pro Cond Black Italic'), url('fonts/verdana-pro-condensed/VerdanaPro-CondBlackItalic.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'trebuc';
+  font-style: normal;
+  font-weight: normal;
+  src: local('trebuc'), url('fonts/trebuc.woff') format('woff');
+}
+
 html {
   font-family: Verdana-Pro-Semibold,Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
 
@@ -848,6 +855,10 @@ section.carousel-resume-section {
   border-top: 2px solid lavender;
   padding-bottom: 0rem;
 }
+#sideNav{
+  font-family: market-deco;
+  font-size: 13px;
+}
 @media (prefers-color-scheme: dark) {
   section.resume-section {
     background-image: none;
@@ -1243,7 +1254,9 @@ section.carousel-resume-section {
   #sideNav {
     padding-left: 5rem;
     width: 23rem !important;
-    font-size: 20px;
+    /* font-size: 20px; */
+
+    font-size: 13px;
   }
   #sideNav .navbar-brand {
     margin: 40px 68px 30px 0px !important;
@@ -3703,9 +3716,6 @@ input[type=button].btn-block {
 .dropdown-menu-dark .dropdown-header {
   color: #adb5bd;
 }
-#navbarDropdown {
-  /* pointer-events: none; */
-}
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -3716,12 +3726,15 @@ input[type=button].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 13px;
   color: #212529;
   text-align: left;
   list-style: none;
   background-color: inherit;
   border: none;
+  font-family: market-deco;
+  
 }
 
 .dropdown-menu-left {
