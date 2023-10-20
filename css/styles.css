@@ -858,6 +858,7 @@ section.carousel-resume-section {
 #sideNav{
   font-family: market-deco;
   font-size: 13px;
+  letter-spacing: -0.2px;
 }
 @media (prefers-color-scheme: dark) {
   section.resume-section {
@@ -10790,7 +10791,7 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 300;
-  letter-spacing: 0.05rem;
+  /* letter-spacing: 0.05rem; */
   color: #484a4a;
 }
 #sideNav .navbar-toggler:focus {
