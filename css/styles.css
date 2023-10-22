@@ -860,6 +860,12 @@ section.carousel-resume-section {
   font-size: 13px;
   letter-spacing: -0.2px;
 }
+.portfolio-title  {
+  padding-left:3rem; 
+  text-transform: none; 
+  font-family: market-deco;
+}
+
 @media (prefers-color-scheme: dark) {
   section.resume-section {
     background-image: none;
@@ -921,6 +927,12 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 440px) {
+  .portfolio-title  {
+    padding-left:0rem; 
+  }
+  .ongoing h4 {
+    padding-left: 0;
+  }
   section.resume-section {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -976,6 +988,12 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 576px) {
+  .portfolio-title  {
+    padding-left:1rem; 
+  }
+  .ongoing h4 {
+    padding-left:2rem;
+  }
   .container-sm, .container {
     max-width: 540px;
   }
@@ -1053,6 +1071,9 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 992px) {
+  .portfolio-title  {
+    padding-left:2rem; 
+  }
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
@@ -1103,6 +1124,12 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 1080px) {
+  .portfolio-title  {
+    padding-left:3rem; 
+  }
+  .ongoing h4 {
+    padding-left: 3rem;
+  }
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
