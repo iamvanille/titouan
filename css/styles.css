@@ -52,7 +52,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('Trebuchet MS'), url('trebuc.woff') format('woff');
-  }
+}
 @font-face {
   font-family: 'market-deco';
   src: url('fonts/Market_Deco.ttf')  format('truetype');
