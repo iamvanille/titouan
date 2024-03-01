@@ -1007,10 +1007,22 @@ section.carousel-resume-section {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+  .yacht-portfolio {
+    padding-top: 0rem !important;
+  }
   #portfolio .portfolio-item {
     width: 16rem;
     min-height: 11rem;
     margin: 8px;
+  }
+  #portfolio .full-size-pic {
+    width: 100% !important;
+    margin: 0 !important;
+    min-height: 43rem;
+  }
+  .full-screen-img {
+    width: 100% !important;
+    height: 43rem !important;
   }
   .portfolio-img-fluid {
     width: 100%;
