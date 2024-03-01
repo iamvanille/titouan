@@ -1003,6 +1003,13 @@ section.carousel-resume-section {
   a.navbar-brand {
     margin: 0;
   }
+  .yacht-row {
+    margin-left: -0.5rem !important;
+    margin-bottom: 2rem;
+  }
+  .yacht-row .img-vertical {
+    height: 40.5rem;
+  }
   #carouselSection {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1018,7 +1025,7 @@ section.carousel-resume-section {
   #portfolio .full-size-pic {
     width: 100% !important;
     margin: 0 !important;
-    min-height: 43rem;
+    margin-bottom: 2rem !important;
   }
   .full-screen-img {
     width: 100% !important;
@@ -8224,7 +8231,9 @@ button.bg-dark:focus {
 .w-25 {
   width: 25% !important;
 }
-
+.w-45 {
+  width: 45% !important;
+}
 .w-50 {
   width: 50% !important;
 }
