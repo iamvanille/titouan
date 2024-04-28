@@ -1025,16 +1025,40 @@ section.carousel-resume-section {
   #portfolio .full-size-pic {
     width: 100% !important;
     margin: 0 !important;
-    margin-bottom: 2rem !important;
   }
   .full-screen-img {
     width: 100% !important;
     height: 43rem !important;
   }
+  .yacht-row .portfolio-item {
+    margin-left: 0 !important;
+  }
+  .yacht-row > .flex > .portfolio-item {
+    margin-left: 0 !important;
+  }
   .portfolio-img-fluid {
     width: 100%;
     height: 11.5rem;
     object-fit: cover;
+  }
+  .overlap-pic-v {
+    justify-content: right !important;
+    margin-top: -28rem;
+  }
+  .overlap-pic {
+    justify-content: right !important;
+    margin-top: -18rem;
+  }
+  .overlap-pic .portfolio-item, 
+  .overlap-pic-v .portfolio-item {
+    display: flex;
+  }
+  .horizontal-sm-right {
+    height: 19rem !important;
+  }
+  .vertical-sm-right {
+    width: 22rem !important;
+    height: 28rem !important;
   }
   .panorama-item {
     width: 33rem !important;
