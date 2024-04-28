@@ -1005,7 +1005,6 @@ section.carousel-resume-section {
   }
   .yacht-row {
     margin-left: -0.5rem !important;
-    margin-bottom: 2rem;
   }
   .yacht-row .img-vertical {
     height: 40.5rem;
@@ -1032,9 +1031,11 @@ section.carousel-resume-section {
   }
   .yacht-row .portfolio-item {
     margin-left: 0 !important;
+    margin-bottom: 0 !important;
   }
   .yacht-row > .flex > .portfolio-item {
     margin-left: 0 !important;
+    margin-bottom: 0 !important;
   }
   .portfolio-img-fluid {
     width: 100%;
@@ -1054,7 +1055,7 @@ section.carousel-resume-section {
     display: flex;
   }
   .horizontal-sm-right {
-    height: 19rem !important;
+    height: 16rem !important;
   }
   .vertical-sm-right {
     width: 22rem !important;
@@ -1200,6 +1201,14 @@ section.carousel-resume-section {
   .img-vertical {
     height: 34rem;
   }
+  .full-screen-img {
+    /* width: 100% !important; */
+    height: 27rem !important;
+    margin-left: 3rem !important;
+    margin-right: 3.45rem !important;
+    margin-bottom: 0rem !important;
+    max-width: 40.5rem !important;
+  }
 }
 @media (min-width: 1180px) {
   
@@ -1231,22 +1240,32 @@ section.carousel-resume-section {
   }
   .overlap-pic-v {
     justify-content: right !important;
-    margin-top: -28rem !important;
+    margin-top: -23rem !important;
   }
   .overlap-pic {
     justify-content: right !important;
-    margin-top: -18rem !important;
+    margin-top: -13rem !important;
+    max-height: 15.5rem;
   }
   .overlap-pic .portfolio-item, 
   .overlap-pic-v .portfolio-item {
     display: flex;
   }
   .horizontal-sm-right {
-    height: 19rem !important;
+    height: 15rem !important;
   }
   .vertical-sm-right {
     width: 22rem !important;
     height: 28rem !important;
+  }
+  .full-screen-img {
+    width: 100% !important;
+    height: 43rem !important;
+    margin-left: 3.35rem !important;
+    margin-right: 3.85rem !important;
+    margin-bottom: 0rem !important;
+    max-width: 65rem !important;
+    margin-top: 0.5rem;
   }
 }
 @media (min-width: 1300px) {
@@ -8484,7 +8503,9 @@ button.bg-dark:focus {
 .mx-5 {
   margin-left: 3rem !important;
 }
-
+.mr-6 {
+  margin-right: 4rem !important;
+}
 .p-0 {
   padding: 0 !important;
 }
