@@ -1229,6 +1229,25 @@ section.carousel-resume-section {
   .carousel-item img {
     max-height: 34rem;
   }
+  .overlap-pic-v {
+    justify-content: right !important;
+    margin-top: -28rem !important;
+  }
+  .overlap-pic {
+    justify-content: right !important;
+    margin-top: -18rem !important;
+  }
+  .overlap-pic .portfolio-item, 
+  .overlap-pic-v .portfolio-item {
+    display: flex;
+  }
+  .horizontal-sm-right {
+    height: 19rem !important;
+  }
+  .vertical-sm-right {
+    width: 22rem !important;
+    height: 28rem !important;
+  }
 }
 @media (min-width: 1300px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
