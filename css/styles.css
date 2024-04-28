@@ -1043,11 +1043,11 @@ section.carousel-resume-section {
   }
   .overlap-pic-v {
     justify-content: right !important;
-    margin-top: -28rem;
+    margin-top: -28rem !important;
   }
   .overlap-pic {
     justify-content: right !important;
-    margin-top: -18rem;
+    margin-top: -18rem !important;
   }
   .overlap-pic .portfolio-item, 
   .overlap-pic-v .portfolio-item {
