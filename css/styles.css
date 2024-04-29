@@ -1007,7 +1007,7 @@ section.carousel-resume-section {
     margin-left: -0.5rem !important;
   }
   .yacht-row .img-vertical {
-    height: 40.5rem;
+    height: 23.5rem;
   }
   #carouselSection {
     padding-left: 0.5rem;
@@ -1026,8 +1026,9 @@ section.carousel-resume-section {
     margin: 0 !important;
   }
   .full-screen-img {
-    width: 100% !important;
-    height: 43rem !important;
+    height: 22rem !important;
+    max-width: 32.5rem;
+    margin-left: 0.75rem;
   }
   .yacht-row .portfolio-item {
     margin-left: 0 !important;
@@ -1044,22 +1045,25 @@ section.carousel-resume-section {
   }
   .overlap-pic-v {
     justify-content: right !important;
-    margin-top: -28rem !important;
+    margin-top: -13rem !important;
+    margin-left: 5rem !important;
   }
   .overlap-pic {
     justify-content: right !important;
-    margin-top: -18rem !important;
+    margin-top: -7rem !important;
+    max-height: 8.5rem !important;
   }
   .overlap-pic .portfolio-item, 
   .overlap-pic-v .portfolio-item {
     display: flex;
   }
   .horizontal-sm-right {
-    height: 16rem !important;
+    height: 8rem !important;
+    margin-left: 4rem;
   }
   .vertical-sm-right {
-    width: 22rem !important;
-    height: 28rem !important;
+    width: 10rem !important;
+    height: 14rem !important;
   }
   .panorama-item {
     width: 33rem !important;
@@ -1075,6 +1079,9 @@ section.carousel-resume-section {
     float: none;
     vertical-align: middle;
   } 
+  .w-45 {
+    width: 48% !important;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -1112,6 +1119,40 @@ section.carousel-resume-section {
     display: flex;
     flex-direction: row;
     vertical-align: middle;
+  }
+  .yacht-row .img-vertical {
+    height: 26.5rem;
+  }
+  .w-45 {
+    width: 41.5% !important;
+  }
+  .full-screen-img {
+    width: 100% !important;
+    height: 30rem !important;
+    margin-left: 4.5rem !important;
+    margin-right: 4.5rem !important;
+    margin-bottom: 0rem !important;
+    max-width: 65rem !important;
+    margin-top: 0.5rem;
+  }
+  .vertical-sm-right {
+    width: 14rem !important;
+    height: 18rem !important;
+  }
+  .horizontal-sm-right {
+    height: 11rem !important;
+    margin-left: 0;
+  }
+  .overlap-pic-v {
+    justify-content: right !important;
+    margin-top: -16rem !important;
+    margin-left: 0rem !important;
+  }
+  .overlap-pic {
+    justify-content: right !important;
+    margin-top: -9rem !important;
+    max-height: 11.5rem !important;
+    margin-left: 0rem !important;
   }
 }
 @media (min-width: 992px) {
@@ -1201,13 +1242,18 @@ section.carousel-resume-section {
   .img-vertical {
     height: 34rem;
   }
+  .yacht-row .img-vertical {
+    height: 35rem;
+  }
   .full-screen-img {
-    /* width: 100% !important; */
-    height: 27rem !important;
-    margin-left: 3rem !important;
-    margin-right: 3.45rem !important;
+    height: 29rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2.25rem !important;
     margin-bottom: 0rem !important;
-    max-width: 40.5rem !important;
+    max-width: 46.5rem !important;
+  }
+  .w-45 {
+    width: 46.5% !important;
   }
 }
 @media (min-width: 1180px) {
@@ -1251,6 +1297,9 @@ section.carousel-resume-section {
   .overlap-pic-v .portfolio-item {
     display: flex;
   }
+  .yacht-row .img-vertical {
+    height: 38.5rem;
+  }
   .horizontal-sm-right {
     height: 15rem !important;
   }
@@ -1266,6 +1315,9 @@ section.carousel-resume-section {
     margin-bottom: 0rem !important;
     max-width: 65rem !important;
     margin-top: 0.5rem;
+  }
+  .w-45 {
+    width: 46.95% !important;
   }
 }
 @media (min-width: 1300px) {
@@ -1311,6 +1363,12 @@ section.carousel-resume-section {
     width: 100%;
     height: 37rem;
     object-fit: cover;
+  }
+  .w-45 {
+    width: 45% !important;
+  }
+  .yacht-row .img-vertical {
+    height: 40.5rem;
   }
 }
 @media (min-width: 1440px) {
@@ -8294,7 +8352,7 @@ button.bg-dark:focus {
   width: 25% !important;
 }
 .w-45 {
-  width: 45% !important;
+  width: 45%;
 }
 .w-50 {
   width: 50% !important;
