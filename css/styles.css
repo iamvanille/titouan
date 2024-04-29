@@ -1291,7 +1291,7 @@ section.carousel-resume-section {
   .overlap-pic {
     justify-content: right !important;
     margin-top: -13rem !important;
-    max-height: 15.5rem;
+    max-height: 15.5rem !important;
   }
   .overlap-pic .portfolio-item, 
   .overlap-pic-v .portfolio-item {
