@@ -1319,6 +1319,14 @@ section.carousel-resume-section {
   .w-45 {
     width: 46.95% !important;
   }
+  .full-screen-img {
+    height: 30rem !important;
+    margin-left: 5.9rem !important;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+    max-width: 44.45rem !important;
+    margin-top: 0.5rem;
+  }
 }
 @media (min-width: 1300px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
