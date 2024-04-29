@@ -1308,16 +1308,15 @@ section.carousel-resume-section {
     height: 28rem !important;
   }
   .full-screen-img {
-    width: 100% !important;
-    height: 43rem !important;
-    margin-left: 3.35rem !important;
-    margin-right: 3.85rem !important;
+    height: 30rem !important;
+    margin-left: 3.3rem !important;
+    margin-right: 3.7rem !important;
     margin-bottom: 0rem !important;
-    max-width: 65rem !important;
+    max-width: 60rem !important;
     margin-top: 0.5rem;
   }
   .w-45 {
-    width: 46.95% !important;
+    width: 45.1% !important;
   }
   .full-screen-img {
     height: 30rem !important;
