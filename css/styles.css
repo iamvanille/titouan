@@ -871,7 +871,19 @@ section.carousel-resume-section {
     background-image: none;
   }
 }
-
+@media (max-width: 380px) {
+  .w-45 .portfolio-item {
+    margin: 0 0 8px 0 !important;
+  }
+  .w-45 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 439px) {
+  .w-45 {
+    width: 22rem !important;
+  }
+}
 @media (max-width: 440px){
   section.resume-section {
     padding-left: 1rem;
@@ -897,8 +909,6 @@ section.carousel-resume-section {
   }
   .gallery-panorama-wide {
     width: 21rem !important;
-    
-    
   }
   .img-vertical {
     height: 30rem;
@@ -925,8 +935,27 @@ section.carousel-resume-section {
   a.navbar-brand {
     margin: 0;
   }
+  .yacht-row .flex-column {
+    flex-direction: row !important;
+  }
+  /* .w-45 {
+    width: 100% !important;
+  } */
+  .mrr-6, 
+  .mrr-5 {
+    margin-right: 0 !important;
+  }
+  .yacht-row .portfolio-img-fluid {
+    width: 20rem !important;
+  }
 }
 @media (min-width: 440px) {
+  .mrr-6 {
+    margin-right: 4rem !important;
+  }
+  .mrr-5 {
+    margin-right: 3rem !important;
+  }
   .portfolio-title  {
     padding-left:0rem; 
   }
@@ -1257,7 +1286,7 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 1180px) {
-  
+
   #portfolio .portfolio-item {
     width: 26rem;
     min-height: 19rem;
