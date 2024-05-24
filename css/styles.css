@@ -1296,7 +1296,8 @@ section.carousel-resume-section {
     width: 23.5rem !important;
   }
   .yacht-row .portfolio-item {
-    width: 23rem !important;
+    /* min-width: 23rem !important; */
+    min-width: 29.5rem !important;
   }
   #jetski_img {
     margin-left: 45px !important;
