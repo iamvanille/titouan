@@ -1285,12 +1285,19 @@ section.carousel-resume-section {
   .yacht-row .img-vertical {
     height: 35rem;
   }
-  .full-screen-img {
+  /* .full-screen-img {
     height: 29rem !important;
     margin-left: 2.6rem !important;
     margin-right: 1.75rem !important;
     margin-bottom: 0rem !important;
     max-width: 46.5rem !important;
+  } */
+  .full-screen-img {
+    height: 35rem !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+    max-width: 53.5rem !important;
   }
   .w-45 {
     width: 23.5rem !important;
@@ -1299,7 +1306,8 @@ section.carousel-resume-section {
     width: 23rem !important;
   }
   #jetski_img {
-    margin-left: 45px !important;
+    /* margin-left: 45px !important; */
+    margin-left: 0px;
   }
 }
 @media (min-width: 1180px) {
@@ -1353,16 +1361,25 @@ section.carousel-resume-section {
     width: 22rem !important;
     height: 28rem !important;
   }
-  .full-screen-img {
+  /* .full-screen-img {
     height: 39rem !important;
     margin-left: 3.3rem !important;
     margin-right: 3.7rem !important;
     margin-bottom: 0rem !important;
     max-width: 60rem !important;
     margin-top: 0.5rem;
+  } */
+  .full-screen-img {
+    height: 41rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0rem !important;
+    max-width: 71rem !important;
+    margin-top: 0.5rem;
   }
   .w-45 {
-    width: 45.1% !important;
+    /* width: 45.1% !important; */
+    width: 377px !important;
   }
 }
 @media (min-width: 1300px) {
@@ -1381,6 +1398,9 @@ section.carousel-resume-section {
     padding-top: 3rem;
     padding-bottom: 2rem;
     /* max-width: 75rem; */
+  }
+  .yacht-row {
+    margin-left: 0.5rem !important;
   }
   .img-skills {
     width: 300px;
@@ -1403,17 +1423,23 @@ section.carousel-resume-section {
   }
   .horizontal {
     height: 20rem;
+    width: 500px;
   }
   .img-vertical {
     width: 100%;
     height: 37rem;
+    width: 31rem;
     object-fit: cover;
   }
   .w-45 {
-    width: 45% !important;
+    /* width: 45% !important; */
+    width: 504px !important;
   }
   .yacht-row .img-vertical {
     height: 40.5rem;
+  }
+  .yacht-row .portfolio-item {
+    width: 31rem !important;
   }
 }
 @media (min-width: 1440px) {
