@@ -1058,8 +1058,9 @@ section.carousel-resume-section {
   }
   .full-screen-img {
     height: 22rem !important;
-    max-width: 32.5rem;
-    margin-left: 0.75rem;
+    max-width: 45rem;
+    /* margin-left: 0.75rem; */
+    margin-top: 8px;
   }
   .yacht-row .portfolio-item {
     margin-left: 0 !important;
@@ -1111,7 +1112,8 @@ section.carousel-resume-section {
     vertical-align: middle;
   } 
   .w-45 {
-    width: 48% !important;
+    /* width: 48% !important; */
+    width: 265px !important;
   }
 }
 @media (min-width: 768px) {
@@ -1169,7 +1171,7 @@ section.carousel-resume-section {
     margin-left: 2.5rem !important;
     margin-right: 3rem !important;
     margin-bottom: 0rem !important;
-    max-width: 45.5rem !important;
+    max-width: 58rem !important;
     margin-top: 0.5rem;
   }
   .vertical-sm-right {
@@ -1374,7 +1376,7 @@ section.carousel-resume-section {
     margin-left: 0 !important;
     margin-right: 0 !important;
     margin-bottom: 0rem !important;
-    max-width: 71rem !important;
+    max-width: 88rem !important;
     margin-top: 0.5rem;
   }
   .w-45 {
@@ -1400,7 +1402,7 @@ section.carousel-resume-section {
     /* max-width: 75rem; */
   }
   .yacht-row {
-    margin-left: 0.5rem !important;
+    margin-left: 0rem !important;
   }
   .img-skills {
     width: 300px;
