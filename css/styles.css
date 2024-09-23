@@ -1414,8 +1414,14 @@ section.carousel-resume-section {
     min-height: 19rem;
     margin: 6px;
   }
+  #portfolio .pi-yacht {
+    width: 30rem;
+    min-height: 19rem;
+    margin: 8px;
+  }
   .panorama-item, .gallery-panorama-wide {
-    width: 60rem !important;
+    /* width: 60rem !important; */
+    width: 972px !important;
     height: 22rem;
   }
   .portfolio-img-fluid {
@@ -1425,7 +1431,7 @@ section.carousel-resume-section {
   }
   .horizontal {
     height: 20rem;
-    width: 500px;
+    /* width: 500px; */
     /* width: 472px; */
   }
   .img-vertical {
@@ -1440,6 +1446,7 @@ section.carousel-resume-section {
   }
   .yacht-row .img-vertical {
     height: 40.5rem;
+    width: 31rem;
   }
   .yacht-row .portfolio-item {
     width: 31rem !important;
