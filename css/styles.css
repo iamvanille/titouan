@@ -1412,7 +1412,7 @@ section.carousel-resume-section {
   #portfolio .portfolio-item {
     width: 30rem;
     min-height: 19rem;
-    margin: 8px;
+    margin: 6px;
   }
   .panorama-item, .gallery-panorama-wide {
     width: 60rem !important;
