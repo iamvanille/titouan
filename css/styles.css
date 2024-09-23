@@ -11093,7 +11093,7 @@ p.lead {
     color: #5878a8;
   }
   body.landscape a.landscape, body.cityscape a.cityscape, 
-  body.residential a.residential, body.ongoing a.ongoing {
+  body.hospitality a.hospitality, body.ongoing a.ongoing {
     color: #3d76a8;
   }
 }
