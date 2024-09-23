@@ -1410,7 +1410,7 @@ section.carousel-resume-section {
     float: right;
   }
   #portfolio .portfolio-item {
-    width: 29.5rem;
+    width: 30rem;
     min-height: 19rem;
     margin: 8px;
   }
@@ -1426,11 +1426,12 @@ section.carousel-resume-section {
   .horizontal {
     height: 20rem;
     width: 500px;
+    /* width: 472px; */
   }
   .img-vertical {
     width: 100%;
     height: 37rem;
-    width: 31rem;
+    width: 30rem;
     object-fit: cover;
   }
   .w-45 {
