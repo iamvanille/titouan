@@ -1517,7 +1517,8 @@ section.carousel-resume-section {
     width: 100%;
     height: 37rem;
     object-fit: cover;
-  }  .video-full {
+  }  
+  .video-full {
     width: 972px !important;
   }
 }
