@@ -1020,6 +1020,9 @@ section.carousel-resume-section {
     pointer-events: none !important;
     cursor: auto;
   } */
+  .video-full {
+    width: 26rem !important;
+  }
 }
 @media (min-width: 576px) {
   .portfolio-title  {
@@ -1115,6 +1118,9 @@ section.carousel-resume-section {
     /* width: 48% !important; */
     width: 265px !important;
   }
+  .video-full {
+    width: 33rem !important;
+  }
 }
 @media (min-width: 768px) {
   .yacht-row > .portfolio-hover {
@@ -1196,6 +1202,9 @@ section.carousel-resume-section {
   .yacht-row .portfolio-item {
     width: 20.5rem !important;
   }
+  .video-full {
+    width: 22rem !important;
+  }
 }
 @media (min-width: 992px) {
   .portfolio-title  {
@@ -1248,6 +1257,9 @@ section.carousel-resume-section {
     font-size: 9px;
     margin: 0;
     padding-top: 3px;
+  }
+  .video-full {
+    width: 41rem !important;
   }
 }
 @media (min-width: 1080px) {
@@ -1310,6 +1322,9 @@ section.carousel-resume-section {
   #jetski_img {
     /* margin-left: 45px !important; */
     margin-left: 0px;
+  }
+  .video-full {
+    width: 47rem !important;
   }
 }
 @media (min-width: 1180px) {
@@ -1383,6 +1398,9 @@ section.carousel-resume-section {
     /* width: 45.1% !important; */
     width: 377px !important;
   }
+  .video-full {
+    width: 53rem !important;
+  }
 }
 @media (min-width: 1300px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -1450,6 +1468,9 @@ section.carousel-resume-section {
   }
   .yacht-row .portfolio-item {
     width: 31rem !important;
+  }
+  .video-full {
+    width: 972px !important;
   }
 }
 @media (min-width: 1440px) {
