@@ -952,7 +952,7 @@ section.carousel-resume-section {
   .video-full {
     width: 38rem !important;
     object-fit: cover;
-    margin-left: -11.5rem;
+    margin-left: -7.5rem;
   }
 }
 @media (min-width: 440px) {
