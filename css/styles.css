@@ -2936,6 +2936,10 @@ section.carousel-resume-section {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+  /* disabling click on tablet/mobile */
+  .portfolio-item {
+    pointer-events: none;
+  }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
