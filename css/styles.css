@@ -1021,7 +1021,9 @@ section.carousel-resume-section {
     cursor: auto;
   } */
   .video-full {
-    width: 26rem !important;
+    width: 50rem !important;
+    object-fit: cover;
+    margin-left: -11.5rem;
   }
 }
 @media (min-width: 576px) {
@@ -1119,7 +1121,10 @@ section.carousel-resume-section {
     width: 265px !important;
   }
   .video-full {
-    width: 33rem !important;
+    width: 34rem !important;
+    height: auto;
+    object-fit: contain;
+    margin-left: 0;
   }
 }
 @media (min-width: 768px) {
@@ -1203,7 +1208,10 @@ section.carousel-resume-section {
     width: 20.5rem !important;
   }
   .video-full {
-    width: 22rem !important;
+    width: 45rem !important;
+    object-fit: contain;
+    margin-left: 0;
+    height: auto;
   }
 }
 @media (min-width: 992px) {
