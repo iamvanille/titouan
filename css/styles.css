@@ -949,6 +949,11 @@ section.carousel-resume-section {
   .mrr-5 {
     margin-right: 0 !important;
   }
+  .video-full {
+    width: 38rem !important;
+    object-fit: cover;
+    margin-left: -11.5rem;
+  }
 }
 @media (min-width: 440px) {
   .mrr-6 {
