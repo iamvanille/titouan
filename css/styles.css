@@ -865,7 +865,15 @@ section.carousel-resume-section {
   text-transform: none; 
   font-family: market-deco;
 }
-
+.archi-title {
+  color: black;
+  font-family: market-deco;
+  font-size: 35px;
+  padding: 3rem;
+  text-align: right;
+  margin-top: 1rem;
+  padding-right:2rem;
+}
 @media (prefers-color-scheme: dark) {
   section.resume-section {
     background-image: none;
@@ -885,6 +893,13 @@ section.carousel-resume-section {
   }
 }
 @media (max-width: 440px){
+  .archi-title {
+    font-size: 15px;
+    padding: 15px;
+    text-align: right;
+    margin-top: 1rem;
+    padding-right:2rem;
+  }
   section.resume-section {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -956,6 +971,11 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 440px) {
+  .archi-title {
+    font-size: 25px;
+    padding: 0;
+    margin-top: 1rem;
+  }
   .mrr-6 {
     margin-right: 4rem !important;
   }
@@ -1032,6 +1052,9 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 576px) {
+  .archi-title {
+    margin-bottom: 0rem !important;
+  }
   .portfolio-title  {
     padding-left:1rem; 
   }
@@ -1133,6 +1156,11 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 768px) {
+  .archi-title {
+    font-size: 25px;
+    padding: 3rem;
+    margin-top: 0rem !important;
+  }
   .yacht-row > .portfolio-hover {
     pointer-events: none !important;
     cursor: crosshair;
@@ -1220,6 +1248,11 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 992px) {
+  .archi-title {
+    font-size: 28px;
+    padding: 1rem 1rem 0 0;
+    margin-top: 0rem !important;
+  }
   .portfolio-title  {
     padding-left:2rem; 
   }
@@ -1276,6 +1309,11 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 1080px) {
+  .archi-title {
+    font-size: 28px;
+    padding: 1rem 1rem 0 0;
+    margin-top: 1rem !important;
+  }
   .portfolio-title  {
     padding-left:3rem; 
   }
@@ -1341,7 +1379,11 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 1180px) {
-
+  .archi-title {
+    font-size: 30px;
+    padding: 3rem 1rem 3rem 3rem;
+    margin-top: 0rem !important;
+  }
   #portfolio .portfolio-item {
     width: 26rem;
     min-height: 19rem;
@@ -1416,6 +1458,12 @@ section.carousel-resume-section {
   }
 }
 @media (min-width: 1300px) {
+  .archi-title {
+    font-size: 35px;
+    padding: 3rem;
+    margin-top: 1rem;
+    padding-right:2rem;
+  }
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
