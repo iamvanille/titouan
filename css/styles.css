@@ -867,12 +867,17 @@ section.carousel-resume-section {
 }
 .archi-title {
   color: black;
-  font-family: market-deco;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  /* font-family: market-deco; */
   font-size: 35px;
   padding: 3rem;
-  text-align: right;
   margin-top: 1rem;
   padding-right:2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 @media (prefers-color-scheme: dark) {
   section.resume-section {
@@ -1312,7 +1317,7 @@ section.carousel-resume-section {
   .archi-title {
     font-size: 28px;
     padding: 1rem 1rem 0 0;
-    margin-top: 1rem !important;
+    margin-top: 0rem !important;
   }
   .portfolio-title  {
     padding-left:3rem; 
@@ -1459,10 +1464,13 @@ section.carousel-resume-section {
 }
 @media (min-width: 1300px) {
   .archi-title {
-    font-size: 35px;
+    /* font-size: 35px;
     padding: 3rem;
     margin-top: 1rem;
-    padding-right:2rem;
+    padding-right:2rem; */
+    padding: 2rem 1rem 3rem 1rem !important;
+    margin-top: 0.5rem !important;
+    font-size: 39px !important;
   }
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
