@@ -869,7 +869,6 @@ section.carousel-resume-section {
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: uppercase;
-  /* font-family: market-deco; */
   font-size: 35px;
   padding: 3rem;
   margin-top: 1rem;
@@ -877,7 +876,7 @@ section.carousel-resume-section {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
 }
 @media (prefers-color-scheme: dark) {
   section.resume-section {
@@ -1058,7 +1057,9 @@ section.carousel-resume-section {
 }
 @media (min-width: 576px) {
   .archi-title {
-    margin-bottom: 0rem !important;
+    font-size: 22px;
+    padding: 0;
+    margin-top: 0 !important;
   }
   .portfolio-title  {
     padding-left:1rem; 
@@ -1162,9 +1163,8 @@ section.carousel-resume-section {
 }
 @media (min-width: 768px) {
   .archi-title {
-    font-size: 25px;
-    padding: 3rem;
-    margin-top: 0rem !important;
+    font-size: 32px;
+    padding: 0rem;
   }
   .yacht-row > .portfolio-hover {
     pointer-events: none !important;
@@ -1254,8 +1254,8 @@ section.carousel-resume-section {
 }
 @media (min-width: 992px) {
   .archi-title {
-    font-size: 28px;
-    padding: 1rem 1rem 0 0;
+    font-size: 32px;
+    padding: 0rem;
     margin-top: 0rem !important;
   }
   .portfolio-title  {
@@ -1315,7 +1315,7 @@ section.carousel-resume-section {
 }
 @media (min-width: 1080px) {
   .archi-title {
-    font-size: 28px;
+    font-size: 32px;
     padding: 1rem 1rem 0 0;
     margin-top: 0rem !important;
   }
@@ -1385,8 +1385,8 @@ section.carousel-resume-section {
 }
 @media (min-width: 1180px) {
   .archi-title {
-    font-size: 30px;
-    padding: 3rem 1rem 3rem 3rem;
+    font-size: 36px;
+    padding: 1rem 1rem 0 0;
     margin-top: 0rem !important;
   }
   #portfolio .portfolio-item {
@@ -1468,9 +1468,12 @@ section.carousel-resume-section {
     padding: 3rem;
     margin-top: 1rem;
     padding-right:2rem; */
-    padding: 2rem 1rem 3rem 1rem !important;
-    margin-top: 0.5rem !important;
-    font-size: 39px !important;
+    /* padding: 2rem 1rem 3rem 1rem !important; */
+    margin-top: 0 !important;
+    padding: 0 !important;
+    font-size: 42px !important;
+    letter-spacing: 18px;
+    line-height: 52px;
   }
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
