@@ -1566,6 +1566,10 @@ section.carousel-resume-section {
     height: 37rem;
     object-fit: cover;
   }
+  .yacht-row .img-vertical {
+    height: 44.5rem;
+    width: 31rem;
+  }
   .carousel-inner {
     max-height: 55rem !important;
   }
