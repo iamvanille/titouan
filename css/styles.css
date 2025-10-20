@@ -1649,6 +1649,11 @@ section.carousel-resume-section {
   .video-full {
     width: 972px !important;
   }
+  .panorama-item-video-yacht, .gallery-panorama-video-yacht {
+    width: 1286px !important;
+    height: 35rem;
+    margin-left: -6px;
+  }
 }
 @media (min-width: 1900px) {
   #sideNav {
@@ -1697,6 +1702,11 @@ section.carousel-resume-section {
   }
   .close-modal {
     font-size: 25px;
+  }
+  .panorama-item-video-yacht, .gallery-panorama-video-yacht {
+    width: 1408px !important;
+    height: 39rem;
+    margin-left: -6px;
   }
 }
 .row {
