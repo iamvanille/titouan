@@ -1310,9 +1310,9 @@ section.carousel-resume-section {
     height: 13rem;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 43rem !important;
-    height: 18rem;
-    margin-left: 4px;
+    width: 44rem !important;
+    height: 20rem;
+    margin-left: -8px;
   }
   .img-vertical {
     height: 34rem;
@@ -1332,6 +1332,15 @@ section.carousel-resume-section {
   }
   .video-full {
     width: 41rem !important;
+  }
+  .full-screen-img {
+    height: 22rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    max-width: 58rem !important;
+    margin-top: 0.5rem;
+    width: 45rem !important;
   }
 }
 @media (min-width: 1080px) {
@@ -1371,9 +1380,9 @@ section.carousel-resume-section {
     height: 17rem;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 48rem !important;
-    height: 21rem;
-    margin-left: 4px;
+    width: 49.5rem !important;
+    height: 22rem;
+    margin-left: -8px;
   }
   .img-vertical {
     height: 34rem;
@@ -1433,10 +1442,9 @@ section.carousel-resume-section {
     height: 19rem;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 56rem !important;
+    width: 55.75rem !important;
     height: 24rem;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: -8px;
   }
   .img-vertical {
     height: 34rem;
@@ -1551,10 +1559,9 @@ section.carousel-resume-section {
     height: 546px;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 1000px !important;
-    height: 27rem;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 1012px !important;
+    height: 28rem;
+    margin-left: -6px;
   }
   .portfolio-img-fluid {
     width: 100%;
@@ -1621,8 +1628,8 @@ section.carousel-resume-section {
     height: 546px;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 1200px !important;
-    height: 31rem;
+    width: 1209px !important;
+    height: 33rem;
     margin-left: -5px;
     margin-right: 0px;
   }
@@ -1650,9 +1657,9 @@ section.carousel-resume-section {
     width: 972px !important;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 1286px !important;
+    width: 1273px !important;
     height: 35rem;
-    margin-left: -6px;
+    margin-left: -8px;
   }
 }
 @media (min-width: 1900px) {
@@ -1706,7 +1713,7 @@ section.carousel-resume-section {
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 1408px !important;
     height: 39rem;
-    margin-left: -6px;
+    margin-left: -8px;
   }
 }
 .row {
