@@ -1649,7 +1649,7 @@ section.carousel-resume-section {
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 1273px !important;
     height: 35rem;
-    margin-left: -8px !important;
+    margin-left: 0 !important;
   }
 }
 @media (min-width: 1900px) {
