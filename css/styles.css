@@ -1441,8 +1441,8 @@ section.carousel-resume-section {
     height: 19rem;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 55.75rem !important;
-    height: 24rem;
+    width: 100% !important;
+    height: 27rem;
     margin-left: 0px !important;
   }
   .img-vertical {
@@ -1551,8 +1551,8 @@ section.carousel-resume-section {
     height: 546px;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 1012px !important;
-    height: 28rem;
+    width: 100% !important;
+    height: 29rem;
     margin-left: 0px !important;
   }
   .portfolio-img-fluid {
