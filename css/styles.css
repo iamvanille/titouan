@@ -1678,8 +1678,9 @@ section.carousel-resume-section {
 }
 @media (min-width: 1900px) {
   #sideNav {
-    padding-left: 5rem;
-    width: 23rem !important;
+    /* padding-left: 5rem; */
+    padding-left: 4rem;
+    width: 21rem !important; 
     /* font-size: 20px; */
 
     font-size: 13px;
@@ -1694,7 +1695,7 @@ section.carousel-resume-section {
     width: 185px;
   }
   section.resume-section {
-    margin-left: 5rem;
+    margin-left: 4rem;
     font-size: 18px;
   }
   #portfolio .portfolio-item {
@@ -11201,7 +11202,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 18rem;
+    padding-left: 16rem;
   }
 }
 h1,
@@ -11238,14 +11239,15 @@ p.lead {
 
 @media (min-width: 992px) {
   #sideNav {
-    padding-left: 4rem;
+    padding-left: 2.5rem;
     text-align: left;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 18rem;
+    /* width: 18rem; */
+    width: 16rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
