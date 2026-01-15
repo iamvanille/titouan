@@ -1727,8 +1727,8 @@ section.carousel-resume-section {
     font-size: 25px;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 1408px !important;
-    height: 39rem;
+    /* width: 1408px !important;
+    height: 39rem; */
     margin-left: 0 !important;
   }
 }
