@@ -652,6 +652,7 @@ h6, .h6 {
 .skills-column {
   max-width: 50%;
   padding: 40px;
+  color: #929292;
 }
 .skills-img-column {
   flex-grow: 1;
