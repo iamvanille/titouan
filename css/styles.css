@@ -617,7 +617,7 @@ h4, .h4 {
 .ongoing h4, .ongoing .h4 {
   font-family: 'east-west';
   font-size: 28px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 
@@ -857,6 +857,8 @@ section.carousel-resume-section {
   padding-bottom: 0rem;
   color: #e8eaed !important;
   letter-spacing: 2px !important;
+  font-family: east-west;
+  font-size:28px;
 }
 #sideNav{
   font-family: market-deco;
@@ -1568,7 +1570,8 @@ section.carousel-resume-section {
   }
   .panorama-item, .gallery-panorama-wide {
     /* width: 60rem !important; */
-    width: 972px !important;
+    width: 962px !important;
+    
     height: 22rem;
   }
   .panorama-item-video, .gallery-panorama-video {
