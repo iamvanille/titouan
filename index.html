@@ -111,21 +111,26 @@
             const homeCarousel = document.getElementById('homeCarousel');
             
             if (homeVideo && homeCarousel) {
-                let isVideoPlaying = true; // Track if we're waiting for video
+                let isOnVideoSlide = true; // Track if we're on the video slide
                 let carouselInterval = null;
+                let videoFallbackTimeout = null;
                 const SLIDE_INTERVAL = 4000; // 4 seconds between slides
                 
                 const carousel = new bootstrap.Carousel(homeCarousel, {
                     interval: false, // Disable automatic interval - we'll control it manually
                     pause: false,
-                    ride: false
+                    ride: false,
+                    wrap: true
                 });
                 
                 // Function to start slideshow
                 function startSlideshow() {
-                    if (carouselInterval) clearInterval(carouselInterval);
+                    stopSlideshow(); // Clear any existing interval first
                     carouselInterval = setInterval(function() {
-                        carousel.next();
+                        // Only advance if not on video slide
+                        if (!isOnVideoSlide) {
+                            carousel.next();
+                        }
                     }, SLIDE_INTERVAL);
                 }
                 
@@ -135,44 +140,67 @@
                         clearInterval(carouselInterval);
                         carouselInterval = null;
                     }
+                    if (videoFallbackTimeout) {
+                        clearTimeout(videoFallbackTimeout);
+                        videoFallbackTimeout = null;
+                    }
+                }
+                
+                // Function to handle video slide arrival
+                function handleVideoSlide() {
+                    stopSlideshow();
+                    isOnVideoSlide = true;
+                    homeVideo.currentTime = 0;
+                    
+                    const playPromise = homeVideo.play();
+                    if (playPromise !== undefined) {
+                        playPromise.catch(function(e) {
+                            // If video can't play (e.g., autoplay blocked), wait then continue
+                            console.log('Video autoplay failed, will continue after delay');
+                            videoFallbackTimeout = setTimeout(function() {
+                                if (isOnVideoSlide) {
+                                    isOnVideoSlide = false;
+                                    carousel.next();
+                                    startSlideshow();
+                                }
+                            }, SLIDE_INTERVAL);
+                        });
+                    }
                 }
                 
                 // When video ends, move to next slide and start slideshow
                 homeVideo.addEventListener('ended', function() {
-                    isVideoPlaying = false;
-                    carousel.next();
-                    startSlideshow();
+                    if (isOnVideoSlide) {
+                        isOnVideoSlide = false;
+                        carousel.next();
+                        startSlideshow();
+                    }
                 });
                 
-                // When sliding to a new slide
+                // Before sliding to a new slide
+                homeCarousel.addEventListener('slide.bs.carousel', function(event) {
+                    // If leaving video slide, stop video and clear flags
+                    if (event.from === 0) {
+                        homeVideo.pause();
+                        isOnVideoSlide = false;
+                        if (videoFallbackTimeout) {
+                            clearTimeout(videoFallbackTimeout);
+                            videoFallbackTimeout = null;
+                        }
+                    }
+                });
+                
+                // After sliding to a new slide
                 homeCarousel.addEventListener('slid.bs.carousel', function(event) {
                     if (event.to === 0) {
-                        // Arrived at video slide - stop slideshow and play video
-                        stopSlideshow();
-                        isVideoPlaying = true;
-                        homeVideo.currentTime = 0;
-                        homeVideo.play().catch(function(e) {
-                            // If video can't play (e.g., autoplay blocked), continue slideshow
-                            console.log('Video autoplay failed, continuing slideshow');
-                            isVideoPlaying = false;
-                            setTimeout(function() {
-                                carousel.next();
-                                startSlideshow();
-                            }, SLIDE_INTERVAL);
-                        });
-                    }
-                });
-                
-                // Handle manual navigation - if user clicks while video is playing
-                homeCarousel.addEventListener('slide.bs.carousel', function(event) {
-                    // If leaving video slide manually, stop waiting for video
-                    if (event.from === 0 && isVideoPlaying) {
-                        isVideoPlaying = false;
-                        homeVideo.pause();
-                    }
-                    // If navigating away from non-video slides, ensure slideshow continues
-                    if (event.to !== 0 && !carouselInterval) {
-                        startSlideshow();
+                        // Arrived at video slide
+                        handleVideoSlide();
+                    } else {
+                        // Arrived at non-video slide - ensure slideshow is running
+                        isOnVideoSlide = false;
+                        if (!carouselInterval) {
+                            startSlideshow();
+                        }
                     }
                 });
             }
