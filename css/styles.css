@@ -823,8 +823,8 @@ pre code {
 section.resume-section {
   display: flex;
   flex-direction: column;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
   background-color: #fcfeff;
@@ -838,6 +838,66 @@ section.resume-section .resume-section-content {
 }
 section.carousel-resume-section {
   flex-direction: row;
+}
+.home section.resume-section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden;
+}
+.home .container-fluid {
+  height: 100vh;
+}
+
+/* Full screen video in home carousel */
+.home #homeCarousel {
+  height: 100%;
+  width: 100%;
+}
+.home #homeCarousel .carousel-inner {
+  height: 100%;
+}
+.home #homeCarousel .carousel-item {
+  height: 100%;
+}
+.home #homeCarousel .carousel-item video,
+.home #homeCarousel .carousel-item .video-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+.home #homeCarousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: cover;
+}
+.home #homeCarousel .carousel-control-prev,
+.home #homeCarousel .carousel-control-next {
+  z-index: 10;
+  opacity: 0;
+}
+.home #homeCarousel .carousel-control-prev:hover,
+.home #homeCarousel .carousel-control-next:hover {
+  opacity: 0.5;
+}
+.home #homeCarousel .carousel-item.video-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home .video-full {
+  width: 100% !important;
 }
 .navbar-title-container {
   display: flex;
@@ -907,8 +967,8 @@ section.carousel-resume-section {
     text-align: justify;
   }
   section.resume-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     /* background-image: none; */
     min-height: 600px;
   }
@@ -933,7 +993,7 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 8.75rem;
+    height: auto;
     margin-left: 0px;
   }
   .img-vertical {
@@ -980,8 +1040,17 @@ section.carousel-resume-section {
     object-fit: cover;
     margin-left: -7.5rem;
   }
+  .home .video-full {
+    width: 100% !important;
+    margin-left: 0;
+  }
 }
 @media (min-width: 440px) {
+  section.resume-section {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    min-height: 750px;
+  }
   .archi-title {
     font-size: 25px;
     padding: 0 0 0 1rem;
@@ -998,12 +1067,6 @@ section.carousel-resume-section {
   }
   .ongoing h4 {
     padding-left: 0;
-  }
-  section.resume-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    /* background-image: none; */
-    min-height: 750px;
   }
   #carouselSection {
     padding-left: 0.5rem;
@@ -1028,8 +1091,8 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 9rem;
-    margin-left: 20px !important;
+    height: auto;
+    margin-left: 0px !important;
   }
   .img-vertical {
     height: 34rem;
@@ -1058,14 +1121,14 @@ section.carousel-resume-section {
   .navbar-brand > span {
     font-size: 0px;
   }
-  /* .yacht-row .portfolio-hover {
-    pointer-events: none !important;
-    cursor: auto;
-  } */
   .video-full {
     width: 50rem !important;
     object-fit: cover;
     margin-left: -11.5rem;
+  }
+  .home .video-full {
+    width: 100% !important;
+    margin-left: 0;
   }
 }
 @media (min-width: 576px) {
@@ -1154,8 +1217,9 @@ section.carousel-resume-section {
     height: 11rem;
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
-    width: 34rem !important;
-    height: 15rem;
+    /* width: 34rem !important; */
+    width: 100% !important;
+    height: auto;
     margin-left: 0 !important;
   }
   .img-vertical {
@@ -1171,9 +1235,16 @@ section.carousel-resume-section {
   }
   .video-full {
     width: 34rem !important;
-    height: auto;
+    /* height: auto; */
     object-fit: contain;
     margin-left: 0;
+  }
+  .home .video-full {
+    width: 100% !important;
+    margin-top: 0;
+  }
+  #homeVideo {
+    height: 43rem !important;
   }
 }
 @media (min-width: 768px) {
@@ -1189,8 +1260,8 @@ section.carousel-resume-section {
     max-width: 720px;
   }
   section.resume-section {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
   #carouselSection {
     padding-left: 1rem;
@@ -1216,8 +1287,9 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 17.73rem;
-    margin-left: -5px !important;
+    /* height: 17.73rem; */
+    height: auto;
+    /* margin-left: -5px !important; */
   }
   .img-vertical {
     height: 30rem;
@@ -1273,10 +1345,19 @@ section.carousel-resume-section {
     width: 20.5rem !important;
   }
   .video-full {
-    width: 45rem !important;
+    /* width: 45rem !important; */
+    width: 100% !important;
     object-fit: contain;
     margin-left: 0;
-    height: auto;
+    /* height: auto; */
+  }
+  .home #homeCarousel .carousel-item .video-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 43rem !important;
+    object-fit: cover;
   }
 }
 @media (min-width: 810px) {
@@ -1285,7 +1366,7 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 17.73rem;
+    height: auto;
     margin-left: -5px !important;
   }
 }
@@ -1340,7 +1421,7 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;    
-    height: 20rem;
+    height: auto;
     margin-left: 0 !important;
   }
   .img-vertical {
@@ -1360,7 +1441,7 @@ section.carousel-resume-section {
     padding-top: 3px;
   }
   .video-full {
-    width: 41rem !important;
+    /* width: 41rem !important; */
   }
   .full-screen-img {
     height: 22rem !important;
@@ -1411,7 +1492,8 @@ section.carousel-resume-section {
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     /* width: 49.5rem !important;
     height: 22rem; */
-    height: 24rem;
+    width: 100%;
+    height: auto;
     margin-left: 0px !important;
   }
   .img-vertical {
@@ -1439,8 +1521,22 @@ section.carousel-resume-section {
     margin-left: 0px;
   }
   .video-full {
-    width: 47rem !important;
+    width: 100% !important;
+    /* object-fit: cover; */
   }
+  #homeVideo {
+    height: 43rem !important;
+  }
+  .top-video {
+    margin-top: -54px;
+  }
+  /* #home > section.resume-section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  }
+  #home > .video-full {
+    width: 100% !important;
+  } */
 }
 @media (min-width: 1180px) {
   .archi-title {
@@ -1467,14 +1563,17 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 27rem;
+    height: auto;
     margin-left: 0px !important;
+  }
+  #videoTopYacht {
+    margin-top: -8px !important;
   }
   .img-vertical {
     height: 34rem;
   }
   .carousel-inner {
-    max-height: 34rem;
+    max-height: 43rem;
   }
   .carousel-item img {
     max-height: 34rem;
@@ -1516,7 +1615,7 @@ section.carousel-resume-section {
     width: 377px !important;
   }
   .video-full {
-    width: 53rem !important;
+    /* width: 53rem !important; */
   }
 }
 @media (min-width: 1300px) {
@@ -1577,7 +1676,7 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 29.5rem;
+    height: auto;
     margin-left: 0px !important;
   }
   .portfolio-img-fluid {
@@ -1608,7 +1707,9 @@ section.carousel-resume-section {
     width: 31rem !important;
   }
   .video-full {
-    width: 972px !important;
+    /* width: 972px !important; */
+    width: 100% !important;
+    height: 100%;
   }
 }
 @media (min-width: 1440px) {
@@ -1646,7 +1747,7 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     width: 100% !important;
-    height: 33.5rem;
+    height: auto;
     margin-left: 0px !important;
   }
 }
@@ -1674,7 +1775,7 @@ section.carousel-resume-section {
   }
   .panorama-item-video-yacht, .gallery-panorama-video-yacht {
     /* width: 1273px !important; */
-    height: 37.5rem;
+    height: auto;
     margin-left: 0 !important;
   }
 }
@@ -7008,7 +7109,7 @@ a.btn-close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  max-height: 34rem;
+  /* max-height: 34rem; */
   overflow: hidden;
   padding-left: 0;
 }
