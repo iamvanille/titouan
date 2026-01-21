@@ -1237,13 +1237,15 @@ section.carousel-resume-section {
   }
   .video-full {
     width: 34rem !important;
-    height: auto;
+    /* height: auto; */
     object-fit: contain;
     margin-left: 0;
   }
   .home .video-full {
     width: 100% !important;
     margin-top: 0;
+  }
+  #homeVideo {
     height: 43rem !important;
   }
 }
@@ -1349,7 +1351,7 @@ section.carousel-resume-section {
     width: 100% !important;
     object-fit: contain;
     margin-left: 0;
-    height: auto;
+    /* height: auto; */
   }
   .home #homeCarousel .carousel-item .video-full {
     position: absolute;
@@ -1522,10 +1524,13 @@ section.carousel-resume-section {
   }
   .video-full {
     width: 100% !important;
+    /* object-fit: cover; */
+  }
+  #homeVideo {
     height: 43rem !important;
-    object-fit: cover;
-    margin-top: -4rem;
-    position: fixed;
+  }
+  .top-video {
+    margin-top: -54px;
   }
   /* #home > section.resume-section {
   padding-left: 0 !important;
@@ -1562,6 +1567,9 @@ section.carousel-resume-section {
     width: 100% !important;
     height: auto;
     margin-left: 0px !important;
+  }
+  #videoTopYacht {
+    margin-top: -8px !important;
   }
   .img-vertical {
     height: 34rem;
@@ -1704,7 +1712,7 @@ section.carousel-resume-section {
   .video-full {
     /* width: 972px !important; */
     width: 100% !important;
-    height: auto;
+    height: 100%;
   }
 }
 @media (min-width: 1440px) {
