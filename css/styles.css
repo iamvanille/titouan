@@ -842,6 +842,59 @@ section.carousel-resume-section {
 .home section.resume-section {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden;
+}
+.home .container-fluid {
+  height: 100vh;
+}
+
+/* Full screen video in home carousel */
+.home #homeCarousel {
+  height: 100%;
+  width: 100%;
+}
+.home #homeCarousel .carousel-inner {
+  height: 100%;
+}
+.home #homeCarousel .carousel-item {
+  height: 100%;
+}
+.home #homeCarousel .carousel-item video,
+.home #homeCarousel .carousel-item .video-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+.home #homeCarousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: cover;
+}
+.home #homeCarousel .carousel-control-prev,
+.home #homeCarousel .carousel-control-next {
+  z-index: 10;
+  opacity: 0;
+}
+.home #homeCarousel .carousel-control-prev:hover,
+.home #homeCarousel .carousel-control-next:hover {
+  opacity: 0.5;
+}
+.home #homeCarousel .carousel-item.video-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .home .video-full {
   width: 100% !important;
@@ -1190,6 +1243,8 @@ section.carousel-resume-section {
   }
   .home .video-full {
     width: 100% !important;
+    margin-top: 0;
+    height: 43rem !important;
   }
 }
 @media (min-width: 768px) {
@@ -1296,8 +1351,13 @@ section.carousel-resume-section {
     margin-left: 0;
     height: auto;
   }
-  .home .video-full {
+  .home #homeCarousel .carousel-item .video-full {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100% !important;
+    height: 43rem !important;
+    object-fit: cover;
   }
 }
 @media (min-width: 810px) {
@@ -1461,8 +1521,11 @@ section.carousel-resume-section {
     margin-left: 0px;
   }
   .video-full {
-    /* width: 47rem !important; */
-    height: auto;
+    width: 100% !important;
+    height: 43rem !important;
+    object-fit: cover;
+    margin-top: -4rem;
+    position: fixed;
   }
   /* #home > section.resume-section {
   padding-left: 0 !important;
@@ -1504,7 +1567,7 @@ section.carousel-resume-section {
     height: 34rem;
   }
   .carousel-inner {
-    max-height: 34rem;
+    max-height: 43rem;
   }
   .carousel-item img {
     max-height: 34rem;
@@ -7041,7 +7104,7 @@ a.btn-close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  max-height: 34rem;
+  /* max-height: 34rem; */
   overflow: hidden;
   padding-left: 0;
 }
