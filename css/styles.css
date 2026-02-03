@@ -1573,6 +1573,9 @@ section.carousel-resume-section {
   .img-vertical {
     height: 34rem;
   }
+  #homeCarousel > .carousel-inner {
+    max-height: 100%;
+  }
   .carousel-inner {
     max-height: 43rem;
   }
